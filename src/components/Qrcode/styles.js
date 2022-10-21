@@ -26,14 +26,18 @@ export const IntoContainer = styled.div`
     border: none;
 `
 
-export const QrcodeElement = styled.img`
+export const QrcodeElement = styled.div`
     width: 90%;
     height: 200px;
     
+    display: flex;
+    justify-content: center;
+    flex: 1;
     border-radius: 10px;
     margin: 10px 10px;
     border: none;
 `
+
 export const SubtitleContainer = styled.div`
     width: 69%;
     height: 130px;

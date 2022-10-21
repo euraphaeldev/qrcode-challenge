@@ -3,10 +3,16 @@ import { Container, IntoContainer, QrcodeElement, TextQrcode, TitleQrcode, Subti
 import qrcodeimage from '../../assets/img/image-qr-code.png'
 
 const Qrcode = () => {
+  const radius = {
+    borderRadius: '10px',
+    width: '100%'
+  };
   return (
     <Container>
       <IntoContainer>
-        <QrcodeElement src={qrcodeimage} alt={'qrcode'}/>
+        <QrcodeElement>
+          <img src={qrcodeimage} alt='qrcode' style={radius} />
+        </QrcodeElement>
         <SubtitleContainer>
           <TitleQrcode>
             Improve your front-end skills by building projects
