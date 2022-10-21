@@ -6,7 +6,7 @@ const Qrcode = () => {
   return (
     <Container>
       <IntoContainer>
-        <QrcodeElement src={qrcodeimage} />
+        <QrcodeElement src={qrcodeimage} alt='qrcode'/>
         <SubtitleContainer>
           <TitleQrcode>
             Improve your front-end skills by building projects
