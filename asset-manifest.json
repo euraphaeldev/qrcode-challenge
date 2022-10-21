@@ -1,0 +1,10 @@
+{
+  "files": {
+    "main.js": "/qrcode-challenge/static/js/main.bf87370b.js",
+    "index.html": "/qrcode-challenge/index.html",
+    "main.bf87370b.js.map": "/qrcode-challenge/static/js/main.bf87370b.js.map"
+  },
+  "entrypoints": [
+    "static/js/main.bf87370b.js"
+  ]
+}
