@@ -7,11 +7,12 @@ const Qrcode = () => {
     borderRadius: '10px',
     width: '100%'
   };
+
   return (
     <Container>
       <IntoContainer>
         <QrcodeElement>
-          <img src={qrcodeimage} alt={'qrcode'} style={radius} />
+          <img src={qrcodeimage} alt='qrcode' style={radius} />
         </QrcodeElement>
         <SubtitleContainer>
           <TitleQrcode>
